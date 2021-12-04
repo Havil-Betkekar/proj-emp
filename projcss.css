@@ -1,0 +1,210 @@
+body {
+    background-color: #291515;
+}
+.watch-class {
+    position: fixed;
+    z-index: 99;
+    right: 5px;
+    color: #fff;
+}
+.bg-class{
+    background-image: url("bg.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+.head-class{
+    font-size: 38px;
+    color: #d43b3b;
+    margin: 40px 0 20px;
+
+}
+.watch-class p {
+    font-size: 14px;
+}
+.watch-class h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.watch-class h3 span {
+    font-size: 13px;
+    font-weight: 400;
+}
+.xray-icon p{
+    text-align: center;
+     width: 60px; 
+    border-radius: 5px;
+    border: 1px solid #b73638;
+}
+.xray-icon p:hover{
+    border: 1px solid #fff;
+    color:#b73638;
+    background-color: #fff;
+    border: 1px solid #b73638;
+}
+.age-limit-class p{
+    text-align: center;
+     width: 46px; 
+    border-radius: 5px;
+    border: 1px solid #b73638;
+}
+.age-limit-class p:hover{
+    border: 1px solid #fff;
+    color:#b73638;
+    background-color: #fff;
+    border: 1px solid #b73638;
+}
+.img-caption-class {
+    position: absolute;
+    top: 170px;
+}
+.img-caption-class p {
+    display: inline-block;
+}
+.age-limit-class {
+    margin-top: 2px;
+}
+.xray-icon {
+    margin-top: 2px;
+}
+.padd-env {
+    padding: 0 0 0;
+}
+p.terms-class {
+    font-size: 13px;
+    color: #554E51;
+}
+.watch-btn-class p {
+    background-color: #d43b3b;
+    width: 145px;
+    padding: 10px 0 11px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.watch-btn-class p:hover {
+    background-color: #fff;
+    color:#d43b3b;
+    border: 1px solid #d43b3b;
+
+}
+.watch-btn-class span {
+    font-size: 10px;
+    padding-left: 8px;
+}
+.add-env {
+    margin: 3px 0 0;
+    padding-left: 0;
+}
+/*carousal css*/
+.item {
+    color: #fff;
+}
+.img-caption {
+    position: absolute;
+    top: 90px;
+    padding: 0px 25px 0;
+}
+.img-caption h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.img-caption p {
+    font-size: 13px;
+}
+.carousal-head-class {
+    color: #493C3D;
+    padding: 50px 120px 50px;
+}
+  /*carousal css ends*/
+
+  .col-sm-3{
+    width: 33%;
+    margin: 15px 0 30px;
+  }  
+  .marg-class {
+    margin: 45px 0 0 115px;
+    width: 380px;
+}
+  .marg-class-new {
+    margin: 45px 0px 0;
+    width: 380px;
+    position: relative;
+    top: 20px;
+}
+.card {
+    background-color: #2b212a;
+    color: #58575a;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: transform .4s;
+}
+p.time-class {
+    background-color: #4e4e54;
+    font-size: 12px;
+    padding: 8px 10px 8px;
+    border-radius: 20px;
+    margin-left: 5px;
+    color: #fff;
+}
+p.rev-class {
+    margin-left: 135px;
+    color: #d43b3b;
+}
+.red{
+    color: #d43b3b; 
+}
+a.vid-button {
+    border: 1px solid #6A2A30;
+    color: #6A2A30;
+    text-underline-offset: 10px;
+    padding: 3px 10px 3px;
+    border-radius: 5px;
+}
+.vid-button {
+    float: right;
+}
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    margin-bottom: 45px;
+    z-index: 999;
+}
+
+.line-class{
+    width: 390px;
+    background-color: #d43b3b;
+    height: 3px;
+    position: relative;
+    bottom: 14px;
+    left: 335px;
+}
+.icon-class span {
+    padding: 0 5px 0;
+    color: #d43b3b;
+}
+
+.icon-class {
+    border-top: 1px solid #58575a;
+    padding: 18px 0 0px;
+}
+.card-title {
+    color: #fff;
+}
+.pos-class {
+    position: relative;
+    bottom: 15px;
+}
+.pos-new-class {
+    position: relative;
+    top: 15px;
+}
+a.vid-button:hover {
+    background-color: #6A2A30;
+    color:#2b212a;
+    text-decoration-color: #6A2A30;
+}
+.card:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
